@@ -5,3 +5,32 @@ Ambiente de desenvolvimento
 	- conferir vs code
 	- verifcar sqlite
 	- verificar navegadores instalados
+
+Conceitos iniciais
+	- Abstração
+	- Aplicações web
+		- Cliente -> <- servidor
+		- Browser (cliente) -> <- (servidor) Servidor http
+		- Front-end (cliente) -> <- (servidor) Backend
+
+Introdução de html
+	- UTF-8 conjunto de caracteres para todos os computadores
+	- Formato ideal de início do html
+	<!DOCTYPE html>
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<title>Documento de Teste</title>
+			</head>
+			<body>
+				<p>Teste</p>
+			</body>
+		</html>
+
+Introdução de css
+	- Não é linguagem de programação
+	- Sintax
+		- .body {
+			background-color: yellow;
+		}
+
