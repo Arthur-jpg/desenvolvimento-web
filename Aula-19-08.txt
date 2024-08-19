@@ -1,0 +1,7 @@
+Comandos
+	- ls -> listar conteúdos
+Ambiente de desenvolvimento
+	- conferir python -> python --version
+	- conferir vs code
+	- verifcar sqlite
+	- verificar navegadores instalados
