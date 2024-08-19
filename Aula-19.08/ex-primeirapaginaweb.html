@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Primeira página html</title>
+        <link rel="stylesheet"href="ex-primeirapaginaweb.css">
+    </head>
+    <body>
+        <div>
+            <h1 class="class1">Primeira página</h1>
+            <button class="button1" onclick="teste1()">Botão</button>
+        </div> 
+        <div class="div1">
+
+        </div>
+        <script>
+            let resposta = `<p>Olá, esse texto não existia antes</p>` 
+            function teste1() {
+                document.querySelector('.div1').innerHTML = resposta
+            }
+
+
+        </script>
+    </body>
+</html>
