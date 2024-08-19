@@ -1,3 +1,7 @@
+Desenvolvimento web
+2º período
+2024
+
 python
     - Link docs: https://www.python.org/doc/
     -  Ajudar no aprendizado e na localização de informações úteis referente a linguagem de python
