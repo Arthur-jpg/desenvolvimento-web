@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <title>Hello2</title>
+        <style>
+            body {
+                background-color: black;
+                color: black;
+                margin: 0;
+            }
+            h1 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .header {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                margin-bottom: 10px;
+
+            }
+            .conteiner1{
+                background-color: white;
+                border-radius: 5px;
+                padding: 10px;
+                width: 100%;
+
+            }
+            .div2 {
+                display: flex;
+                flex: auto;
+                flex-direction: row;
+                gap: 10px;
+            }
+            @media (max-width: 500px) {
+                .div2 {
+                    flex-direction: column;
+                    margin-right: 20px;
+                }
+            }
+            img {
+                width: 90%;
+            }
+            .imagem {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                display: flex;
+                flex: auto;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+        </style>
+    </header>
+    <body>
+        <div class="header">
+            <div class="logo">
+
+                <img src="logoaudi.jpg" alt="logoaudi" style="width: 50px;">
+            </div>
+            <h1>Audi Rs6</h1>
+        </div>
+        <div class="imagem">
+            <img src="imagem1.jpg" alt="RS6">
+        </div>
+        <div class="div2">
+            <div class="conteiner1">
+                <h1>Motor</h1>
+            </div>
+            <div class="conteiner1">
+                <h1>Transmissão</h1>
+            </div>
+        </div>
+    </body>
+</html>

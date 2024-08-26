@@ -60,4 +60,7 @@ Arquitetura P2P
     - Nessa arquitetura os clientes estão ligados entre si
     - Como nessa arquitetura o cliente entra como servidor e cliente, quanto mais pessoas e acessos mais rápido
     - Auto escalavel -> mais pessoas ligadas no servidor mais poder de receber mais pessoas
+
+
+Referenciando processos
     - 
