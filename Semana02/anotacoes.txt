@@ -1,0 +1,63 @@
+Protocolos
+    - Exemplo de protocolo: get
+        - Requisição TCP
+        - Resposta TCP
+        - Get (http://mangeli.com.br)
+
+Pilha de protocolos da internet
+    - aplicação
+        - Viabiliza as aplicações de rede: FTP, SMTP, HTTP
+    - Transorte
+        - transferência de dados entre processos: TCP, UDP
+    - Rede
+        - Roteamento de datagramas da origem até o destino
+    - Enlace (é o cabo de conexão entre as coisas)
+        - Transferência de dados entre elementos vizinhos na rede (Ethernet, 802.11(WiFi), PPP)
+    - Físico
+        - Movienta 'bits' no meio físico
+    
+Protocolos da camada de aplicação
+    - Tipos de mensagem: reqest, response
+    - Sintax: quais campos e como são delimitados
+    - Semântica: o que cada campo significa
+    - Regras: quando e como os processos respondem ou enviam mensagens
+
+    Protocolos abertos
+        - Facilitam a interoperabilidade
+        - São definidos por padrões (públicos)
+        - Ex: http
+        - Protocolos proprietários: não são definidas por padrões
+
+Protocolos da camada de transporte da Internet - TCP
+    - TCP (é um protocolo muito legal)
+    - A internet é feita de pacotes. Quando você quer se conectar com o sevior do itaú, as suas informações vão por pacotes. Esses pacotes já pussuem endereço, e vão indo fora de ordem e por caminhos diferentes. O TCP vai transportar entre o processo emissor e receptor e vai fazer o controle do fluxo, congestionamento, ou seja, ele vai controlar para saber se tudo está funcionando de acordo. Se um controlador estiver subrecarregado o TCP vai diminuir o fluxo.
+
+Protocolos da camada de transporte da Internet - UDP
+    - Para coisas ao vivo -> nâo precisa de controle de fluxo
+    
+Segurança TCP
+    - TCP e UDP não possuem encriptação
+    - Todas as informações eram textos na internet
+    - SSL -> é uma camada de segurança que é colocada em cima do TCP
+        - Encripta as conexões TCP
+        - Garante a integridade dos dados (garantir que o que está chegando do outro lado é o que você mandou)
+        - Autenticação do usuário (você sabe que está mandando para a pessoa certa)
+        - SSL está na camada da aplicação
+
+Arquitetura cliente servidor
+    - Servidor
+        - Está sempre no ar
+        - Pussui endereço de IP permanente
+    - Cliente
+        - Comunica com o servidor -> no wpp você não está falando com o colguinha, você está falando com o servidor e seu amigo tb esá nesse mesmo servidor
+        - Podem ter conexões intermitentes
+        - Podem ter endereços IP dinâmicos
+        - Cliente não se cumunica com cliente, eles sempre estão ligados ao servidor
+
+Arquitetura P2P
+    - Arquitetura par a par
+    - Não existe servidor semre ligado
+    - Nessa arquitetura os clientes estão ligados entre si
+    - Como nessa arquitetura o cliente entra como servidor e cliente, quanto mais pessoas e acessos mais rápido
+    - Auto escalavel -> mais pessoas ligadas no servidor mais poder de receber mais pessoas
+    - 
