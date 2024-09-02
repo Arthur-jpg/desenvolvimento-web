@@ -8,6 +8,7 @@
             margin: 0px;
             background-color: rgb(248, 239, 229);
             padding: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         .hs {
             display: flex;
@@ -24,12 +25,29 @@
             border-radius: 10px;
             padding: 10px;
         }
+        .teste {
+            margin: 10px;
+        }
+        .midias{
+            width: 100%;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        img {
+            width: 70%;
+        }
+        video {
+            width: 70%;
+        }
 
     </style>
 </head>
     <body>
         
-        <span class="san">Span</span>
+        <span class="san" id="nav">Span</span>
         <div class="hs">
             <h1>h1</h1>
             <h2>h2</h2>
@@ -38,6 +56,29 @@
             <h5>h5</h5>
             <h6>h6</h6>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni provident voluptas, sit laborum ducimus atque voluptates a aspernatur, animi ad reiciendis eos, esse vel iusto natus error iure doloremque molestiae?</p>
+        </div>
+        <div class="form 1">
+            <form method="get" >
+                <label>Name :
+                    <input name="submitted-name" autocomplete= ”name” >
+                </label>
+                <button>Save</bu t ton>
+            </form>
+        </div>
+        <div class="form 2">
+            <form method="post" >
+                <label>Name :
+                    <input name="submitted-name" autocomplete= ”name” >
+                </label>
+                <button>Save</bu t ton>
+            </form>
+        </div>
+        <div class="midias">
+            <img src="audirs6.jpg" alt="audi">
+            <video controls src="doguinho.mp4"></video>
+            <audio controls src="light-my-fire.mp3">
+            </audio>
+            <a href="light-my-fire.mp3">Audio</a>
         </div>
         <div class="lorem2">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde nesciunt molestias earum eaque atque, nisi odit blanditiis velit sed iusto omnis quae? Consequatur a culpa quod ut voluptatum odit.</p>
@@ -62,9 +103,22 @@
                 <li>Link 2</li>
                 <li>Link 3</li>
             </menu>
+        </div>
+        <div class="links">
             <div class="teste">
-                teste
+                <a href="#nav">Ex5 Link</a>
             </div>
+            <div class="teste">
+                <a href="https://www.audi.com/en.html" target="_blank">Ex6 Link</a>
+            </div>
+
+        </div>
+        <div class="lorem">
+            <p>
+                
+                Lorem <strong>ipsum</strong> dolor sit amet consectetur adipisicing elit. Voluptatibus nihil animi voluptate, necessitatibus dolor esse assumenda quos laborum recusandae, nobis exercitationem fugit distinctio ipsa consectetur facilis minus adipisci quas! Excepturi.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, sint, tenetur excepturi eligendi suscipit cupiditate quas labore, accusamus libero qui corrupti eum veniam officiis accusantium neque vero obcaecati aut hic?
+            </p>
         </div>
     </body>
 </html>

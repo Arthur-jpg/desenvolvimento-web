@@ -31,3 +31,23 @@ Introdução ao HTML
         - ol
         - li
         - menu
+
+- Formulários
+    - <form> -> dentro dela colocamos os controles de formulário
+    - Não é essencial para o funcionamento do form
+
+- Button
+    - <button> elemento interativo
+
+- Input 
+    - Elemento que captura o dado
+
+- Select + option -> dropdown list
+
+- Atributos globais
+    - class -> Permite colocar aquele elemento em um conjunto
+    - id -> é um negócio único para diferenciar coisas
+    - name -> Quando está associado a um input, o name é a variável. No caso de um paragrafo 
+    - Title -> para descrever o elemento
+    - Style -> pode ser um atributo em uma tag
+    
