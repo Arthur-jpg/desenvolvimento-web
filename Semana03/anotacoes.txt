@@ -1,0 +1,33 @@
+Introdução ao HTML
+- Considerações iniciais
+    - Case sensitive? -> No html as tags não são case sensitive
+    - <!DOCTYPE html> -> não é obrigatório
+    - Comentário <!-- -->
+    - O que são tags -> A tag marca um conteúdo, são estruturas/comandos da linguagem
+    - O que são elementos html -> Os elementos são os componentes do documento HTML, o elemento é o conjunto da tag e do conteúdo dele
+    - Atributos -> características, os atributos são definidos por chave e valor que colocamos dentro da tag de abertura
+
+- Estrutura de um documento html
+    - Nó raiz é o <html>
+    - O nó raiz tem 2 filhos, o <head> e o <body>
+    - O head
+        - Só possui coisas que não são conteúdo
+        - Metadados -> dados que descrevem os dados
+        - Tem que ter o <title> e o <meta>
+
+- conteúdo
+    - Sapan -> o cointeiner só se expande pelo conteúdo
+    - Lista -> <ul> é um elemento de lista que não tem ordem
+        - Menu -> é uma ul só que cheio de links dentro
+    - Principais
+        - JTML
+        - head
+        - body
+        - h1 até h6
+        - p
+        - div
+        - span
+        - ul
+        - ol
+        - li
+        - menu
