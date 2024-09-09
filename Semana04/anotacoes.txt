@@ -1,0 +1,33 @@
+CSS
+- Isso e uma regra
+- As regras são compostas por declarações separadas por ;
+- O seletor é o que seleciona os elementos que serão utilizados
+- A declaração é um par chave: valor 
+- CSS é em cascata -> vai sobrescrevendo tudo
+
+Sintax
+- Não existe regra sem declaraçao -> colocar o seletor e abrir as chaves ele vai dar erro, precisa ter declaração
+- # seleciona id
+- . seleciona classe
+- seletor de atributo p[title] -> esse seletor vai selecionar todos os p que possuem title > esse é bem poderoso
+
+Box model
+- Padding -> ditância do conteúdo até a borda
+- Border -> é a borda que pode ter 0px ou mais
+- Margin -> é a distância dos elementos até os outros elementos
+
+Comprimento absoluto
+- px
+- cm
+- in
+
+Comprimento relativo
+- em -> relativo ao tamanho da fonte atual no local 2em é o dobro da fonte que estamos
+- rem -> relativo ao tamanho da fonte no elemento raiz
+- ex -> relativo à altura x-height da fonte atual
+- ch -> relativo à largura do 0 (zero) na fonte que você está usando
+- vw -> relativo à 1% da largura do viewport
+- vh -> relativo à 1% da height do viewport
+- vmin -> 
+- vmax ->
+- % -> relativo ao father element 
