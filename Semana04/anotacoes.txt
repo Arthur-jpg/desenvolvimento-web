@@ -31,3 +31,16 @@ Comprimento relativo
 - vmin -> 
 - vmax ->
 - % -> relativo ao father element 
+
+Modelo de layout
+- Fluxo normal (display block, inline, inline-block)
+- Fluxo de tabela (display table)
+- Flexbox (display flex)
+- Css grid layout (display grid)
+
+Posicionamento
+- Static -
+- Relative - vai modificar em relação a posição padrão, sobrepões outros elementos
+- Absolute - retira o elemento do fluxo normal
+- Fixed - é propaganda de bet -> usado para fazer menu que vai para todo lugar na tela
+
