@@ -50,3 +50,10 @@ const func4 = entrada => entrada + ' é bonito'
     
 */
 const minha_lista = [25, 'casa', [34,12], 9.65]
+//minha_lista.forEach((el) => console.log(el))
+
+function testeDoForEach(lista) {
+    lista.forEach(element => {
+        console.log(element)
+    });
+}
