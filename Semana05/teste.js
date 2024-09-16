@@ -52,8 +52,15 @@ const func4 = entrada => entrada + ' é bonito'
 const minha_lista = [25, 'casa', [34,12], 9.65]
 //minha_lista.forEach((el) => console.log(el))
 
-function testeDoForEach(lista) {
-    lista.forEach(element => {
-        console.log(element)
-    });
+
+// Desafio
+function teste(x) {
+    console.log(x)
 }
+function testeDoForEach(lista) {
+    lista.forEach(teste);
+}
+
+//Desafio
+const funcaoComNome = elemento => console.log(elemento)
+minha_lista.forEach(funcaoComNome)
