@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    margin: 0px;
+    background-color: rgb(248, 239, 229);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hs {
+    display: flex;
+    flex-direction: row;
+}
+.teste {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.san {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+.teste {
+    margin: 10px;
+}
+.midias{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+img {
+    width: 70%;
+}
+video {
+    width: 70%;
+}
+
+h6 {
+    font-size: 3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: suse;
+}
+
+#tamanho-realtivo {
+    min-height: 5rem;
+    background-color: brown;
+    width: 50vw;
+}
+span {
+    color: red;
+    font-weight: 900;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+span:hover {
+    background-color: black;
+}

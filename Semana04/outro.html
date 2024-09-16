@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                width: 500px;
+                margin: 0 auto;
+                position: relative;
+            }
+            #container-flex{
+                display: flex;
+            }
+            #container-flex > div {
+                flex: 1;
+                border-style: dotted;
+            }
+            #container-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 100px 100px;
+                gap: 10px;
+            }
+            p {
+                background-color: rgb(207, 232, 220);
+                border: 2px solid rgb(79, 185, 227);
+                padding: 10px;
+                margin: 10px;
+                border-radius: 5px;
+            }
+            #modificado {
+                position: fixed;
+                background: rgba(255, 84, 104, .3);
+                border: 2px solid rgb(255, 84, 104);
+                top: 30px;
+                left: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container-flex">
+            <div id="teste">1</div>
+            <div id="teste">2</div>
+            <div id="teste">3</div>
+
+        </div>
+        <div id="container-grid">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+
+        </div>
+        <div id="exercicio">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p id="modificado">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+        </div>
+    </body>
+</html>
