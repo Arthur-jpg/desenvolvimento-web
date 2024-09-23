@@ -1,0 +1,116 @@
+Questão 3
+
+Questão 4
+    - Atributo é para caracterizar o elemento
+    - O elemento é um componente do html, conjunto das tags, conteúdo se houver
+Questão 5
+    o mínio não precisa de doctype
+    <html>
+    <head>
+        <title>
+            Minha página
+        </title>
+        <meta charset='utf-8'>
+    </head>
+    <body>
+        <p>Estou por aqui</p>
+    </body>
+    </html>    
+
+Questão 6
+    - Pilha de protocolos é uma organização abstrata das organizações da internet
+    - Como é organizada: e em camadas de acordo com o nível de abstração dos protocolos
+    - é uma organização abstrata dos protocols de abstração da intrnet no caso que a camada de baixo presta um serviço para a camada de cima
+
+Questão 7
+    - Transporte confiável de dados
+    - TCP - confiável e UDP não
+    - TCP (só começa a enviar o dado se o outro lado tiver escutando) orientada a conexão e o UDP não
+
+Questão 8
+    - Cliente servior - O servidor fornece serviço para o cliente,e stá sempre no ar, ip fixo, os clientes não comunicam entre si, escalabilidade limitada (comparando com o peer-to-perr)
+    - Peer-to-peer - não tem um servidor central, os clientes comunicam entre si e o sevidor são os próprios clientes
+
+Questão 9
+    - Um processo (slide de protocolos no final)
+    - Processo é um programa rodando no nó (um nó da rede é um computador que está ligado na rede) da rede 
+    - Como se identifica o processo (pelo número da porta, exemplo de tentar levantar 2 servidores em uma mesma porta, dá BO)
+    - São identificados pelo IP e o número da porta
+
+Questão 10
+    - O que é SSL 
+    - Protocolo (camada de segurança) que protege conexões TCP, com criptografia, possibilitando identificar destinatário, garantindo a integridade do dado que passa pela conexão
+
+Questão 11
+    - 2 sendo o head e o body. Sempre tem 2 e somente 2 filhos do nó raiz
+    - Não há limites para o número de descedentes do nó raiz
+    - Apesar de limitação de 2 filhos, o descedentes desses dois são virtualmente ilimitados
+
+Questão 12
+    - Marcação ou organização de conteúdo
+        - div
+
+    - Marcação semantica
+        - footer -> para identificar elementos que farão parte do rodape da página
+        - header ->
+
+Questão 13
+    - Form
+
+Questão 14
+    - <a>
+
+Questão 15
+    - input
+    - button
+    - datalist
+    - label
+    - progress
+    - opttiongroups
+
+Questão 16
+    - class: determina o conjunto as quais o elemento pertence
+    - id: identificar unívoca do elemento
+    - name: cria uma variável, o valor que vai receber o conteúdo do controle - quando o name estiver em qualquer elemento sem ser formulário, o name vai dar mais informação para aquele elemento
+    - hidden: esconde o elemento sem remover ele da páina. Pq? para o usuário não ter acesso 
+    - style: css in line -> tem uma prioridade muito alta, para sobrescrever
+    - title: (não é uma tag title, é o atributo) informação adicinal para o elemento
+
+Questão 17
+    - Além de uma filosofia de design (pode perder elementos mas ainda vai fazer sentido), mas tabém é uma característica da web. Ela foi desenhada para estar pronta para a degradação graciosa. Se o navegador não consegue interpretar algumas tags, ele vai simplesmente ignorar
+    - Tem que estar preparados para perder elementos do html sem perder o sentido
+    - é uma filosofia e uma característica da web
+
+Questão 18
+    - Declaração -> é o conjunto da palavra chave e valor, separado por dois pontos
+    - Selctor -> simbolos ou conjunto de simbolos que identificam os elementos nos quais as regras serão aplicadas
+    - regra -> estrutura comosta pelo seletor e conjunto de declarações separadas por chaves e ponto e vírgula
+
+Questão 19
+    - Seletor de classe vai selecionar todos os elementos com aquela classe (.nomedaclasse)
+    - Seletor de id vai selecionar o elemento com aquele ID (#nomeid)
+
+Questão 20
+    - Margin -> espaço ao redor do elemento
+    - boder -> é uma linha que existe no entorno do elemento (ela existe sempre, mas não vemos quando ela tem largura zero)
+    - padding -> é o espaço que existe entre o conteúdo do elemento e a borda
+
+Questão 21
+    - são todos valores para a palavra-chave position
+    - static -> esse é o padrão, ele vai se comportar no fluxo normal, se for um elemento de bloco ele vai ficar no bloco
+    - relative -> pode mover em relação a posição original do static
+        - O espaço do elemento vai ficar mantido
+        - Você pode se movimentar sobre outros elementos
+    - absolute
+        - retira o elemento do fluxo normal, o espaço não fica reservado (as coisas se reorganizam)
+        - ele se movimenta em relação ao ascendente mais próximo com posicionamento relative
+        - Exemplo da aula, posicionamento de 500 px vs sem limite do paretne de cima 
+    - fixed
+        - fixed em relação ao view port
+Questão 22
+    - entre chaves
+
+Questão 23
+    - var - escoo de função
+    - let - escopo de bloco
+    - const - escopo de bloco e não é possível fazer reatribuição de valor da variável
