@@ -6,7 +6,7 @@ console.log(ids)
 const container = document.getElementById('container3');
 
 const pega_json = async (caminho) => {
-    const resposta = await fetch(caminho + `${ids}`);
+    const resposta = await fetch(caminho + ids);
     console.log(resposta)
     const dados = await resposta.json(); // transformando a string em json 
     return dados
