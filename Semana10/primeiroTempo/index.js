@@ -71,10 +71,13 @@ pega_json('https://botafogo-atletas.mange.li/2024-1/all').then(
 
 const verificaSenha = () => {
     const entrada = document.getElementById('senha').value;
-    const entradaHash = CryptoJS.MD5(entrada).toString()
-    const senhaHash = CryptoJS.MD5("casa").toString()
+    // const entradaHash = CryptoJS.MD5(entrada).toString()
+    // const senhaHash = CryptoJS.MD5("casa").toString()
+    // console.log(senhaHash)
 
-    if (senhaHash === entradaHash) {
+    const hash_senha = '202447d5d44ce12531f7207cb33b6bf7'
+
+    if (hash_senha === hex_md5(entrada)) {
         sessionStorage.setItem('logado', 'sim')
         alert("Logado")
     } else {
