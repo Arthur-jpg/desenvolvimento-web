@@ -43,13 +43,13 @@ const montarCard = (atleta) => {
 }
 
 if (sessionStorage.getItem('logado')) {
+    pega_json(`https://botafogo-atletas.mange.li/2024-1/`).then(
+        (atleta) => montarCard(atleta)
+    )
 
 } else {
     document.body.innerHTML = `<h1>Você precisa estar loagado</h1>`
 }
-pega_json(`https://botafogo-atletas.mange.li/2024-1/`).then(
-    (atleta) => montarCard(atleta)
-)
 
 
 
