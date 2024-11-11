@@ -71,8 +71,10 @@ pega_json('https://botafogo-atletas.mange.li/2024-1/all').then(
 
 const verificaSenha = () => {
     const entrada = document.getElementById('senha').value;
-    const senha = 'casa';
-    if (senha === entrada) {
+    const entradaHash = CryptoJS.MD5(entrada).toString()
+    const senhaHash = CryptoJS.MD5("casa").toString()
+
+    if (senhaHash === entradaHash) {
         sessionStorage.setItem('logado', 'sim')
         alert("Logado")
     } else {
